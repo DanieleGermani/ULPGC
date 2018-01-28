@@ -1,0 +1,17 @@
+.navbar-toggle {
+  background-color: $color-background;
+  border: 1px solid $color-primary;
+  .icon-bar {
+    background-color: #262c53;
+  }
+}
+.c-links{
+  position: relative;
+  &:before{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: rgb(219,170,70);
+  }
+}

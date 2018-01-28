@@ -1,0 +1,24 @@
+.c-links-footer {
+  position: relative;
+  margin-top: 10px;
+  padding-top: 10px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 1px;
+    width: 100%;
+    background-color: white;
+  }
+  .footer-links{
+    position: relative;
+    margin-right: 3rem;
+    &::after{
+      content: "|";
+      position: absolute;
+      right: -12px;
+      color: white;
+    }
+  }
+}

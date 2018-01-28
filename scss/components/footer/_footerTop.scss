@@ -1,0 +1,15 @@
+.footer-top {
+  text-align: right;
+  background-color: $color-background-2;
+  padding: 12px 40px;
+
+  img {
+    width: 150px;
+    height: 60px;
+  }
+}
+@media (max-width: 991px) {
+  .footer-top {
+    text-align: center;
+  }
+}

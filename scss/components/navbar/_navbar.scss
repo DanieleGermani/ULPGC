@@ -1,0 +1,19 @@
+@import "./navbarMedia";
+@import "./navbarBrand";
+@import "./dropdown";
+@import "./navbarToggle";
+
+nav {
+  background-color: $color-primary;
+  letter-spacing: 1px;
+
+  a {
+    color: $color-links;
+    &:hover {
+      text-decoration: none;
+    }
+    .fa:before {
+      font-size: 1.2em;
+    }
+  }
+}

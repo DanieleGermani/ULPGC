@@ -1,0 +1,21 @@
+@import "cardContent";
+
+.container-card {
+  padding: 40px 0;
+  .c-card{
+    height: 250px;
+    padding: 0 10px 10px 0;
+    box-sizing: border-box;
+    .card {
+      position: relative;
+      height: 100%;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      img {
+        width: 100%;
+        height: 100%;
+      }
+
+    }
+  }
+
+}

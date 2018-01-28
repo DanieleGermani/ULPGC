@@ -1,0 +1,10 @@
+  .dropdown-menu {
+    background-color: $color-primary;
+    .dropdown-header {
+      color: $color-links;
+      font-size: 20px;
+    }
+    > li > a {
+      color: $color-links;
+    }
+  }

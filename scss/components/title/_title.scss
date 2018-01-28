@@ -1,0 +1,28 @@
+.c-title{
+  text-align: center;
+  h2{
+    color: $color-primary;
+    font-size: 4rem;
+    padding-bottom: 12px;
+    font-weight: 400;
+  }
+  p{
+    position: relative;
+    color: $color-icons;
+    display: inline-block;
+    padding-top:12px;
+    font-size: 18px;
+    &::after{
+      content: "";
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      height: 1px;
+      width: 100%;
+      background-color: $color-icons
+
+    }
+
+  }
+
+}

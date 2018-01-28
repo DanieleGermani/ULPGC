@@ -1,0 +1,22 @@
+@import "footerTop";
+@import "footerLinks";
+
+footer {
+  padding: 20px 60px;
+  background-color: $color-primary;
+  color: white;
+  font-size: 1rem;
+  img {
+    width: 150px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  a {
+    color: white;
+    &:hover {
+      text-decoration: none;
+      color:$color-background-2;
+    }
+  }
+}

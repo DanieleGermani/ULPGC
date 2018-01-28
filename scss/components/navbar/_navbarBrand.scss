@@ -1,0 +1,11 @@
+.navbar-brand {
+  font-size: 1em;
+  .fa:before {
+    font-size: 1.6em;
+    letter-spacing: 8px;
+  }
+  &:hover {
+    color: $color-primary;
+    background-color: $color-background;
+  }
+}

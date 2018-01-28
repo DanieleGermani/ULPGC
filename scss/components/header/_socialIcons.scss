@@ -1,0 +1,15 @@
+.c-social {
+  position: relative;
+  height: 80px;
+
+  .c-icons-social {
+    position: absolute;
+    top: 40px;
+    right: 60px;
+  }
+  .fa:before {
+    color: $color-icons;
+    font-size: 26px;
+    letter-spacing: 10px;
+  }
+}

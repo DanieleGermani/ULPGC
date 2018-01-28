@@ -1,0 +1,13 @@
+@import "./scss/settings";
+@import "./scss/base";
+@import "./scss/container";
+
+
+//Componentes
+@import "./scss/components/navbar/navbar";
+@import "./scss/components/header/header";
+@import "./scss/components/title/title";
+@import "./scss/components/sectionTop/sectionTop";
+@import "./scss/components/sectionMiddle/sectionMiddle";
+@import "./scss/components/sectionDown/sectionDown";
+@import "./scss/components/footer/footer";
